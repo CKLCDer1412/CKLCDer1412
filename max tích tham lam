@@ -1,0 +1,11 @@
+n=int(input())
+a=[int(ai)for ai in input().split()]
+a.sort()
+total = []
+for i in range(n-1):
+    total.append(a[i]*a[i+1])
+print(total)
+max = 0
+for j in total:
+    max += j
+print(max)
