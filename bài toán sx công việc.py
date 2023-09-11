@@ -13,7 +13,7 @@ for j in range(1, n):
         kq.append(l[j])
 for x in kq:
     print(x[2], end=' ')
-print("hello world")
+
 
     
  
